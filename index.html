@@ -7,16 +7,425 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="my.css">
-    <title></title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>  
+    <link rel="stylesheet" href="../week-4-full-static-site-dseydahmetova/css/my.css">
+    <link rel = "icon" href = "../week-4-full-static-site-dseydahmetova/images/top4.png" type = "image/x-icon"> 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <script src="../week-4-full-static-site-dseydahmetova/js/mediaelement-and-player.min.js"></script>
+    <link href="../week-4-full-static-site-dseydahmetova/css/mediaelementplayer.css" rel="stylesheet">                     
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../week-4-full-static-site-dseydahmetova/js/skip-back.min.js"></script>
+    <script src="../week-4-full-static-site-dseydahmetova/js/skip-back-i18n.js"></script>
+    <link href="../week-4-full-static-site-dseydahmetova//css/skip-back.min.css" rel="stylesheet">
+    <title>static-site</title>
   </head>
-  <body>
-
-
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="200">
+  <!-----navbar---->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+    <div class="container">
+    <a class="navbar-brand order-1 mr-0" href="#profile">Presented by Dana
+      <img src="../week-4-full-static-site-dseydahmetova/images/Image from iOS.jpg" alt="profile image" class="profile-image"></a>  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto h5">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Our Classes
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#hotyoga">Hot yoga</a>
+              <a class="dropdown-item" href="#vinyasa">Vinyasa Flow</a>
+              <a class="dropdown-item" href="#yinflow">Yin Flow</a>
+              <a class="dropdown-item" href="#hatha">Hatha Yoga</a>
+              <a class="dropdown-item" href="#ashtanga">Ashtanga Yoga</a>
+              <a class="dropdown-item" href="#kids">Kids Yoga</a>
+            </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Schedule</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </nav><!-----/navbar---->
+ <!-----jumbotron---->
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+ <div class="container text-sm-center pt-5">
+   <h1 class="display-4">Yoga is really the art of waking up</h1>
+   <p class="lead text-center">Getting back to the true you. It can be that simple. 
+    Yoga offers up a way for us to see a world that is working for you instead of against you.
+    Yoga reminds me that everything is connected so we must live, act, breathe with awareness. The process is the candy. Enjoy!</p>
+    <img class="logo  mx-auto d-block" src="../week-4-full-static-site-dseydahmetova/images/top4.png" alt="yogacover"> 
+ </div>
+</div><!-----/jumbotron---->
+ <div class="container pt-4">
+   <!-----About---->
+ <div id="about" class="row">
+  <div class="col-lg order-lg-2">
+    <h3 class="mb-4">About Yoga and Meditation</h3>
+<p class="first-letter">Yoga is a set of specific exercises, called poses, combined with specific breathing techniques and meditation principles are the building blocks of a yoga class. If a pose causes pain or proves too difficult, there are variations and modifications that can be made to help students. Props like blocks, blankets and straps — even chairs — can be used to help you get the most benefit from the poses. Yoga is not one-size-fits-all: The best yoga workout for you will depend on your individual needs and goals</p>
+<p class="first-letter">Meditation and mindfulness are buzzwords these days for good reason. Yogis have been practicing dhyana (meditation) for millennia. Get expert insight here on meditation and its symbiotic relationship to yoga. Use this hub as your go-to resource for simple tips and guided practices to quiet your mind and make meditation part of your modern daily life.</p>
+</div> 
+  <div class="col-lg order-lg-1">
+    <h3 class="mb-4">What You'll Learn</h3>
+      <ul class="list-group mb-4">
+        <li class="list-group-item"><strong>Trust</strong>:  Physical poses improve our self-confidence and in turn our ability to trust ourselves, inside and out.</li>
+        <li class="list-group-item"><strong>Listen</strong>: After a while we learn how to listen to our bodies and prevent an injury, or help heal one. </li>
+        <li class="list-group-item"><strong>Breathe</strong>: Breathing into challenging moments can be a saving grace! </li>
+        <li class="list-group-item"><strong>Overcome Challenges</strong>: Yoga teaches us that often the hardest part is taking the first step.</li>
+        <li class="list-group-item"><strong>Balance</strong>: Yoga teaches us that just as we must find balance in our body during certain poses, we must seek balance in our lives. </li>
+        <li class="list-group-item"><strong>Find Contentment</strong>: Yoga helps us find happiness with what we have rather than clinging to an ideal, or constantly grasping at something that perhaps is not meant to be.  </li>
+      </ul>
+  </div>
+  <div class="col-lg order-lg-3">
+    <!--table-->
+   <table class="table table-striped">
+    <h3 class="mb-4">Our Locations:</h3>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Address</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>2073 Broadway
+          New York, NY 10023</td>
+        <td>9AM - 9PM (Mon-Sun) <small style="color: red;">CLOSED ON JULY 4TH<small</td>
+        <td width="30%">212-799-0028</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>436 East 14th St
+          New York, NY 10009 US</td>
+        <td>9AM - 12PM (Mon-Fr)</td>
+        <td>212-777-9412</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>445 Gold St
+          Brooklyn, NY 11201 US</td>
+        <td>12PM - 9PM (Mon-Fr)</td>
+        <td>718-246-8460</td>
+      </tr>
+    </tbody>
+  </table>  <!--/table-->
+   <!--media-player-->
+  <div class="videoWrapper mt-4">
+    <video class="videoplayer" width="400" height="200">
+<<<<<<< HEAD
+       <source src="../week-4-full-static-site-dseydahmetova/media/yogapro.mov" type="video/mp4" llowfullscreen controls>
+=======
+       <source src="../week-4-full-static-site-dseydahmetova/media/yogaproject.mp4" type="video/mp4" llowfullscreen controls>
+>>>>>>> lesson1
+       <track label="English" kind="subtitles" srclang="en" src="bridge-captions.vtt" default>
+     </video>
+</div> <!--/media-player-->
+ </div>
+</div><!---/About-->
+<!---Our classes---->
+<h1 id="ourclass" class="display-4 text-center my-5 text-muted">Our Classes</h1>    
+<div class="row">
+  <div class="col-md-6 col-lg-4">
+    <div id="hotyoga" class="card mb-3">
+      <img src="../week-4-full-static-site-dseydahmetova/images/hotyoga.jpg" class="card-img-top" alt="hotyoga">
+      <div class="card-body">
+        <h5 class="card-title">Hot Yoga</h5>
+        <p class="card-text">A diverse series of postures practiced in a heated room (up to 105 F). The heat helps make muscles more limber and flexible, improves circulation, and encourages the body to sweat out impurities.
+         <hr> Bring lots of water and a towel because you will get drenched!</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div id="vinyasa" class="card mb-3">
+      <img src="../week-4-full-static-site-dseydahmetova/images/vinyasa.jpg" class="card-img-top" alt="vinyasayoga">
+      <div class="card-body">
+        <h5  class="card-title">Vinyasa Yoga</h5>
+        <p class="card-text">A challenging and dynamic mixed-level class for those who like to twist, turn, bend backwards and go upside down.
+         <hr> Build strength, stamina and flexibility as you transition from one pose to another. You will feel like a kid again.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div id="yinflow" class="card mb-3">
+      <img src="../week-4-full-static-site-dseydahmetova/images/yinyoga.jpg" class="card-img-top" alt="yinflow">
+      <div class="card-body">
+        <h5  class="card-title">Yin and Flow</h5>
+        <p class="card-text">Yoga uses body weight and gravity to ease into postures. Long holds target the bodys deep connective tissues.
+          <hr>
+          This class will begin with slow, introspective Yin postures before moving into a steady vinyasa flow.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div id="hatha" class="card mb-3">
+      <img src="../week-4-full-static-site-dseydahmetova/images/hatha.jpg" class="card-img-top" alt="hatha">
+      <div class="card-body">
+        <h5 class="card-title">Hatha Yoga</h5>
+        <p class="card-text">It’s all about the basics in these slower moving classes that require you to hold each pose for a few breaths. In many studios, hatha classes are considered a gentler form of yoga.
+          <hr>
+         <em> Best for:</em> Beginners. Because of its slower pace, hatha is a great class if you’re just starting your yoga practice.</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div id="ashtanga" class="card mb-3">
+      <img src="../week-4-full-static-site-dseydahmetova/images/ashtanga.jpg" class="card-img-top" alt="ashtanga">
+      <div class="card-body">
+        <h5 class="card-title">Ashtanga Yoga</h5>
+        <p class="card-text">This dynamic, physically demanding practice synchronizes breath and movement to produce an internal heat designed to purify the body. Ashtanga yoga, with its many vinyasas, is great for building core strength and toning the body. 
+          <hr>
+          Prepare to sweat as you briskly move through a set sequence.  
+          </p>
+        </div>
+        </div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div id="kids"class="card mb-3">
+      <img src="../week-4-full-static-site-dseydahmetova/images/kids.jpg" class="card-img-top" alt="kids Yoga">
+      <div class="card-body">
+        <h5 class="card-title">Yoga for kids</h5>
+        <p class="card-text">is specially designed to get the tiny tots more involved in physical activity. More importantly, it is also meant to teach them to be more aware of their own body, as well as to develop their focus and relaxation.
+        <hr>
+      Children are encouraged to "play" yoga and experience how their breath and body move together in a fun-filled way! </p>
+        </div>
+    </div>
+  </div>
+</div><!-- /Our classes --> 
+    <!---schedule---->
+    <h1 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h1>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Breakthrough Breathwork + Meditation</h5>
+          <span class="badge badge-pill badge-info p-2">9:00am</span>
+        </div>
+        <p class="mb-1">Ebony Qualls</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Yin Breath Chillax</h5>
+          <span class="badge badge-pill badge-info p-2">10:00am</span>
+        </div>
+        <p class="mb-1">Orlee Klempner</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Hot Yoga</h5>
+          <span class="badge badge-pill badge-info p-2">11:00am</span>
+        </div>
+        <p class="mb-1">Jay Stephen</p>
+      </li>
+      <li class="list-group-item list-group-item-success">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Yoga for Kids</h5>
+          <span class="badge badge-pill badge-info p-2">12:00pm</span>
+        </div>
+        <p class="mb-1">1 Hour Free classes for everyone!</p>
+      </li>
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Vinyasa Flow</h5>
+          <span class="badge badge-pill badge-info p-2">1:00pm</span>
+        </div>
+        <p class="mb-1">Eric Tyrone</p>
+      </li> 
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+          <h5 class="mb-1">Yin Flow</h5>
+          <span class="badge badge-pill badge-info p-2">2:00pm</span>
+        </div>
+        <p class="mb-1">Robbie Redux</p>
+      </li> 
+      </ul> <!---/schedule---->
+<!---callout button---->
+<button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#regis">Register Now</button>
+<!---/callout button---->
+<div class="row py-4 text-muted">
+<div class="col-md col-xl-5">
+ <p><strong>About Yoga Classes</strong></p>
+ <p>The expert teachers and speakers from our company have come to your home. We offer live and pre-recorded yoga and meditation classes, DJ-mixed soundtracks, and enlightening talks. Click Sign Up button to purchase live classes or subscribe.</p>
+</div>
+<!--sign up form-->
+<div class="col-md col-xl-5 ml-auto">
+ <p><strong>Stay for the latest news and offers</strong></p>
+ <div class="input-group">
+   <input type="text" class="form-control" placeholder="Email">
+   <span class="input-group-btn">
+     <button class="btn btn-primary" type="button">Sign up</button>
+   </span>
+ </div>
+</div>
+</div>
+<hr><!--/sign up form-->
+</div> <!---/.container---->
+<!---------------------------
+     FORM MODAL REGISTRATION
+  ----------------------------->
+  <div class="modal" id="regis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register to our Yoga classes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+         <!------modal body---->
+        <div class="modal-body">
+        <!------name input---->
+         <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <input type="text" class="form-control" id="name" pattern="[A-Za-z]{1,}" placeholder="Name" required>
+              <div class="invalid-feedback">
+                Please provide your name.
+              </div>
+            </div>
+            <!------last name input---->
+            <div class="col-md-6 mb-3">
+              <input type="text" class="form-control" id="last-name"  pattern="[A-Za-z]{1,}" placeholder="Last name" required>
+              <div class="invalid-feedback">
+                Please provide your last name.
+              </div>
+            </div>
+          </div>
+          <!------phone number input---->       
+            <div class="form-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"> 
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3.925 1.745a.636.636 0 0 0-.951-.059l-.97.97c-.453.453-.62 1.095-.421 1.658A16.47 16.47 0 0 0 5.49 10.51a16.471 16.471 0 0 0 6.196 3.907c.563.198 1.205.032 1.658-.421l.97-.97a.636.636 0 0 0-.06-.951l-2.162-1.682a.636.636 0 0 0-.544-.115l-2.052.513a1.636 1.636 0 0 1-1.554-.43L5.64 8.058a1.636 1.636 0 0 1-.43-1.554l.513-2.052a.636.636 0 0 0-.115-.544L3.925 1.745zM2.267.98a1.636 1.636 0 0 1 2.448.153l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                  </svg>                </span>
+                  <input type="text" id="phone" class="form-control" pattern="[0-9]{10}" placeholder="Format: 1234567890" required>
+                  <div class="invalid-feedback">
+                Please provide a valid phone number.
+              </div>
+            </div>
+            </div>
+             <!------email address input---->
+              <div class="form-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                  </svg>                </span>
+                  <input type="email" id="email"  class="form-control" placeholder="name@example.com" required>
+                    <div class="invalid-feedback">
+                     Please provide your email.
+                </div>
+                </div>
+            </div>
+             <!------date calendar---->
+            <div class="form-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path fill-rule="evenodd" d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                  </svg>                </span>
+                  <input type="text"  class="form-control fix-rounded-right" id="date" placeholder="dd/mm/2020" required>
+                <div class="invalid-feedback">
+                Please provide a valid date.
+                </div>
+              </div>
+            </div>
+             <!------clock time input---->
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+               <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+                    <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg>                </span>
+                  <select id="time" class="custom-select" required>
+                    <option selected value="10:00 AM">10:00 AM</option>
+                    <option value="10:30 AM">10:30 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="11:30 AM">11:30 AM</option>
+                    <option value="12:00 AM">12:00 AM</option>
+                    <option value="12:30 AM">12:30 AM</option>
+                    <option value="1:00 PM">1:00 PM</option>
+                    <option value="1:30 PM">1:30 PM</option>
+                    <option value="2:00 PM">2:00 PM</option>
+                    <option value="2:30 PM">2:30 PM</option>
+                    <option value="3:00 PM">3:00 PM</option>
+                    <option value="3:30 PM">3:30 PM</option>
+                    <option value="4:00 PM">4:00 PM</option>
+                    <option value="4:30 AM">4:30 AM</option>
+                    <option value="5:00 PM">5:00 PM</option>
+                    <option value="5:30 PM">5:30 PM</option>
+                    <option value="6:00 PM">6:00 PM</option>
+                    <option value="6:30 PM">6:30 PM</option>
+                    <option value="7:00 PM">7:00 PM</option>
+                    <option value="7:30 PM">7:30 PM</option>
+                    <option value="8:00 PM">8:00 PM</option>
+                    <option value="8:30 AM">8:30 AM</option>
+                    <option value="9:00 PM">9:00 PM</option>
+                    <option value="9:30 PM">9:30 PM</option>
+                    <option value="10:00 PM">10:00 PM</option>
+                    <option value="10:30 PM">10:30 PM</option>
+                    <option value="1:00 PM">11:00 PM</option>
+                    <option value="11:30 PM">11:30 PM</option>
+                    <option value="00:00 AM">00:00 AM</option>
+                  </select>
+              </div>
+                <div class="invalid-feedback">
+                Please provide a valid time.
+              </div>
+            </div>
+             <!------number of people input---->
+            <div class="col-md-6 mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  </svg>                </span>
+                  <select id="person" class="custom-select" required>
+                 </select>
+                <div class="invalid-feedback">
+                  Please provide a valid time.
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>  <!------/modal body---->
+          <div class="modal-footer justify-content-center">
+            <button class="btn btn-primary btn-lg border-info text-info bg-light" type="submit">Register</button>
+          </div>
+      </form> 
+    </div>
+  </div>
+  </div>
+  <!---footer---->
+<div class="row py-3 bg-info">
+  <div class="col-md text-center">
+    <small>&copy;Copyright 2020 Yoga Classes, LLC.</small>
+      <div class="social-media-contact mt-2 ">
+        <a href="" class="instagram" target="_blank"></a>
+        <a href="" class="facebook" target="_blank"></a>
+        <a href="" class="twitter" target="_blank"></a>
+      </div>
+  </div>
+  </div>
+  </div><!---/footer---->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src ="./js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script type="text/javascript" src ="../week-4-full-static-site-dseydahmetova/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
